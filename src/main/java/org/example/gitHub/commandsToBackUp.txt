@@ -1,0 +1,10 @@
+1. git restore --staged <file_name> - removes the file from the staging area
+2. git reset -- <file_name> - removes the file from the staging area
+3. git reset --soft <file_name> origin/branch - returns the committed file to the staging area
+   without deleting changes
+4. git reset --hard <file_name> HEAD - deletes the changes from commit area
+5. git reset --mixed <file_name> origin/main - returns the committed file to the unstaged area
+   without deleting changes
+6. git reset --soft <file_name> origin/main~4 (^^^^) - returns 4 commits to the staging area
+7. git revert <commit hash> - deletes the merged recent commit from remote repository.
+   Click on esc + :wq(write and quite) to escape. Pushing changes is required.
