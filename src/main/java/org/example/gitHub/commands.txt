@@ -5,4 +5,4 @@
 5. git push -
 
 
-git revert  by command line
+to be reverted  via command line
