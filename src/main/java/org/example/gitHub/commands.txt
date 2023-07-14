@@ -1,4 +1,5 @@
 1. git add <file_name> - adds particular untracked file to a staging area
 2. git add . - adds all untracked and modified files to a staging area
 3. git commit -m "message" - commits all files in the staging area
-4. git push -
+4. git commit --amend -m "message" - rewrites on the most recent commit instead of making a new one
+5. git push -
