@@ -3,6 +3,3 @@
 3. git commit -m "message" - commits all files in the staging area
 4. git commit --amend -m "message" - rewrites on the most recent commit instead of making a new one
 5. git push -
-
-
-6. to be reverted
