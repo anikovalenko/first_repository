@@ -1,3 +1,7 @@
 1. git status - shows the current branch name, unstaged,
    staged files and compares the branch with the remote branch
 2. git log - shows all commit history. Type wq to escape
+3. git tag ver1 - marks the current version as a tag (this is a flag to mark as a complete working version)
+4. gi tag -list - shows all tags
+5. git push --tags -
+6. git checkout ver1 - allows to move directly to the tag version
