@@ -1,3 +1,10 @@
 1. git checkout -b branch_name - creates new branch from the current branch
 2. git checkout branch_name - switches to a specified branch
 3. git branch -m old_name new_name - renames the branch
+4. git pull - updated the branch. Makes the state of local branch equal to the corresponding remote branch
+5. git fetch - shows the changes on the remote branch without bringing them to the local
+6. git stash - saves the unstaged changes as a stack
+7. git stash list - shows the list
+8. git stash pop - backups the most recent saved change and deletes from the stash
+9. git stash apply -  backups the most recent saved change without deleting from the stash
+10. git stash drop - clears the stack

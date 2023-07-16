@@ -1,0 +1,3 @@
+1. git merge master - to merge the master branch to the feature branch
+2. git merge feature master - combined version of -> git checkout feature + git merge master
+3. git rebase master - to rebase the master branch to the feature branch
