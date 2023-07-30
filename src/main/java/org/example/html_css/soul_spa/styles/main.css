@@ -275,11 +275,12 @@ background-color: black;
 }
 
 .buy_button{
-    padding:4px 10 px;
-    height: 20 px;
-    box-sizing: 80px;
     background-color: black;
     color: white;
+    width: 150px;
+    padding:4px 10px;
+    box-sizing: 80px;
+    height: 50 px;
 }
 
 .product_wrapper>article{
