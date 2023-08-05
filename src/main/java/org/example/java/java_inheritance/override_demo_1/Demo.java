@@ -1,6 +1,4 @@
-package org.example.java_inheritance.override_demo_1;
-
-import org.example.java_inheritance.override_demo_1.Dog;
+package org.example.java.java_inheritance.override_demo_1;
 
 class Demo {
 
