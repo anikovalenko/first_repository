@@ -1,4 +1,4 @@
-package org.example.java_print;
+package org.example.java.java_print;
 
 /*
 Expected Output

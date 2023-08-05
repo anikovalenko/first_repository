@@ -1,4 +1,4 @@
-package org.example.java_inheritance.override_and_add;
+package org.example.java.java_inheritance.override_and_add;
 
 abstract class Employee {
 

@@ -275,12 +275,11 @@ background-color: black;
 }
 
 .buy_button{
+    height: 20 px;
+    box-sizing: 80px;
     background-color: black;
     color: white;
-    width: 150px;
-    padding:4px 10px;
-    box-sizing: 80px;
-    height: 50 px;
+    padding:4px 10 px;
 }
 
 .product_wrapper>article{
@@ -307,7 +306,7 @@ background-color: black;
 }
 
 .product_description, .figcaption, .button_wrapper{
-margin: 8px 0 4px 20px;
+    margin: 8px 0 4px 20px;
 }
 
 .releases{
