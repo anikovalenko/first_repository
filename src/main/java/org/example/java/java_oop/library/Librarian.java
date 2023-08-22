@@ -1,9 +1,18 @@
 package org.example.java.java_oop.library;
 
-public class Librarian {
-    int index = 0;
+import java.util.List;
 
-    void addBook(String author, String title, int isbn, Library library) {
-//        library.books[index++] = new Book(author, title, isbn);
+public class Librarian extends Worker {
+    boolean isBusy = false;
+    Library currentWorkplace;
+
+    Librarian(Library certainLibrary) {
+        currentWorkplace = certainLibrary;
+    }
+
+    void addBook(String author, String title, int isbn) {
+        List<Book> books = currentWorkplace.getBooks();
+        books.add(new Book(author, title, isbn));
+        isBusy = true;
     }
 }
