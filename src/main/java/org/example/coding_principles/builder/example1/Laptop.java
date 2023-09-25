@@ -15,6 +15,7 @@ public class Laptop {
         this.screen = builder.screen;
     }
 
+
     @Override
     public String toString() {
         return "Laptop{" +

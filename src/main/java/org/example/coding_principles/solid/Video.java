@@ -40,6 +40,14 @@ public class Video implements IVideoActions, IAdActions {
         return category;
     }
 
+    int getTime(){
+        return 5;
+    }
+
+    String getTitle(){
+       return "bla";
+    }
+
     int getLikes(){
         return manager.likes;
     }
